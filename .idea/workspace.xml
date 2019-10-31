@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19a051a3-e6b7-426a-afc0-8150ff626092" name="Default Changelist" comment="" />
+    <list default="true" id="19a051a3-e6b7-426a-afc0-8150ff626092" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/bjsxt/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/bjsxt/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-orders-provider/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-orders-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springcloud-orders-consumer/src/main/java/com/bjsxt/springcloudordersconsumer/service/impl/ConsumerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="298">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,7 +137,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springcloud-eureka-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
   </component>
   <component name="IdeDocumentHistory">
@@ -258,6 +271,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringcloudOrdersConsumerApplication">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjsxt.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringcloudEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjsxt.springcloudeurekaserver.EurekaServerApplication" />
@@ -284,6 +304,7 @@
       <item itemvalue="Spring Boot.SpringcloudEurekaServerApplication" />
       <item itemvalue="Spring Boot.SpringcloudOrdersConsumerApplication" />
       <item itemvalue="Spring Boot.SpringcloudOrdersProviderApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -302,7 +323,7 @@
       <workItem from="1571984478968" duration="3901000" />
       <workItem from="1572266062527" duration="1345000" />
       <workItem from="1572398395328" duration="1801000" />
-      <workItem from="1572487781986" duration="1454000" />
+      <workItem from="1572487781986" duration="1957000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1572488463567</created>
@@ -311,14 +332,22 @@
       <option name="project" value="LOCAL" />
       <updated>1572488463567</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试提交">
+      <created>1572492428119</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572492428119</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28043000" />
+    <option name="totallyTimeSpent" value="28546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.269437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -565,8 +594,8 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.aidl" />
     <entry file="file://$PROJECT_DIR$/springcloud-orders-consumer/src/main/java/com/bjsxt/springcloudordersconsumer/service/impl/ConsumerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="298">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

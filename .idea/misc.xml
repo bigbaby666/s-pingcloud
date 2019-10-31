@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springcloud-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-orders-provider/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-orders-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
       </list>
     </option>
   </component>
