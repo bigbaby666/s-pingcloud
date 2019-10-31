@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: orders-consumer
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://root:root@localhost:1111/eureka
+
+
+# 配置负载均衡策略
+orders-provider: # 服务名
+  ribbon:        # 规定的
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule     # 负载均衡策略的类的完全限定名
